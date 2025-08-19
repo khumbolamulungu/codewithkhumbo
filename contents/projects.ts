@@ -12,7 +12,7 @@ export const projects: Project[] = [
     {
         title: 'E-commerce Platform',
         description: 'A full-stack e-commerce platform built with Next.js, TypeScript, and Tailwind CSS.',
-        technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Stripe'],
+        technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Django', 'Django Rest Framewok','Stripe'],
         githubLink: 'https://github.com/khumbolamulungu',
         image: '/projects/e-commerce-website.png',
       },
