@@ -33,7 +33,7 @@ export default function AboutPage(){
                             <li>JavaScript | NextJS</li>
                             <li>Tailwind CSS | Bootstrap</li>
                             <li>HTML5 | CSS3</li>
-                            <li>Figma</li>
+                            <li>Figma | LucidChart | Eraser</li>
                         </ul>
                     </motion.div>
 
