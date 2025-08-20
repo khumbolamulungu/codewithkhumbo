@@ -116,7 +116,7 @@ export default function AboutPage(){
                     <div className="bg-white dark:bg-dark/50 p-6 rounded-lg shadow-md">
                         <h3 className="text-xl font-semibold mb-2">Bachelor of Science in Computer Systems and Security</h3>
                         <Link href="" target="_blank"><p className="text-primary mb-2">Malawi University of Science and Technology | 2016 - 2021</p></Link>
-                        <p className="text-secondary">Graduated with credit, with focus in:</p>
+                        <p className="text-secondary">With focus in:</p>
                         <ul className="text-secondary space-y-2 list-disc list-inside">
                             <li>Software Engineering</li>
                             <li>Web Development</li>
