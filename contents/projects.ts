@@ -7,13 +7,23 @@ export const projects: Project[] = [
         description: 'The Cash AutoMate software runs on a Cash Deposit Machine(CDM) and handles deposits, including counting cash, displaying the amount counted, and printing receipts. In real-time, it posts deposits to the AutoMate dashboard. ',
         technologies: ['C#', 'Spring Boot', 'CSS3'],
         githubLink: 'https://github.com/khumbolamulungu',
+        demoLink: 'https://demo.com',
         image: '/projects/kl174.jpeg',
+      },
+      {
+        title: 'Expense Tracker',
+        description: 'A personal finance tracker to manage expenses and income.',
+        technologies: ['NextJS', 'Tailwind CSS', 'OpenAI API', 'Clerk Authentication', 'chart.js'],
+        githubLink: 'https://github.com/khumbolamulungu',
+        demoLink: 'https://aiexpensetracker-7c82.vercel.app/',
+        image: '/projects/expense-tracker.webp',
       },
     {
         title: 'E-commerce Platform',
         description: 'A full-stack e-commerce platform built with Next.js, TypeScript, and Tailwind CSS.',
         technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Django', 'Django Rest Framewok','Stripe'],
         githubLink: 'https://github.com/khumbolamulungu',
+        demoLink: 'https://demo.com',
         image: '/projects/e-commerce-website.png',
       },
       {
@@ -21,6 +31,7 @@ export const projects: Project[] = [
         description: 'A collaborative task management application with real-time updates.',
         technologies: ['Django', 'MongoDB', 'Socket.io'],
         githubLink: 'https://github.com/khumbolamulungu',
+        demoLink: 'https://demo.com',
         image: '/projects/task-manager.webp',
       },
       {
@@ -28,6 +39,7 @@ export const projects: Project[] = [
         description: 'My personal portfolio website showcasing my projects and skills.',
         technologies: ['Next.js', 'Tailwind CSS', 'Framer Motion', 'NodeMailer'],
         githubLink: 'https://github.com/khumbolamulungu',
+        demoLink: 'https://demo.com',
         image: '/projects/portfolio-website.jpg',
       },
       {
@@ -35,6 +47,7 @@ export const projects: Project[] = [
         description: 'A blogging platform with user authentication and markdown support.',
         technologies: ['NextJS', 'Prisma', 'Postegres SQL', 'Kinde', 'Tailwind CSS'],
         githubLink: 'https://github.com/khumbolamulungu',
+        demoLink: 'https://demo.com',
         image: '/projects/blog-website.jpeg',
       },
       {
@@ -42,6 +55,7 @@ export const projects: Project[] = [
         description: 'A weather application that provides real-time weather updates.',
         technologies: ['NextJS', 'OpenWeatherMap API', 'Tailwind CSS'],
         githubLink: 'https://github.com/khumbolamulungu',
+        demoLink: 'https://demo.com',
         image: '/projects/weather-app.png',
       },
       {
@@ -49,6 +63,7 @@ export const projects: Project[] = [
         description: 'A real-time chat application using WebSocket technology.',
         technologies: ['Django', 'Django-Channels', 'Tailwind CSS', 'Socket.io'],
         githubLink: 'https://github.com/khumbolamulungu',
+        demoLink: 'https://demo.com',
         image: '/projects/chat-app.png',
       },
       {
@@ -56,13 +71,7 @@ export const projects: Project[] = [
         description: 'A recipe search application using the Edamam API.',
         technologies: ['React', 'Edamam API'],
         githubLink: 'https://github.com/khumbolamulungu',
+        demoLink: 'https://demo.com',
         image: '/projects/recipe-finder.png',
-      },
-      {
-        title: 'Expense Tracker',
-        description: 'A personal finance tracker to manage expenses and income.',
-        technologies: ['NextJS', 'Tailwind CSS', 'Firebase'],
-        githubLink: 'https://github.com/khumbolamulungu',
-        image: '/projects/expense-tracker.webp',
       }
   ];

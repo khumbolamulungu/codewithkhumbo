@@ -3,7 +3,7 @@
 import { projects } from "@/contents/projects";
 import Image from "next/image";
 import Link from "next/link";
-import { FaGithub } from "react-icons/fa";
+import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 import { motion } from 'framer-motion';
 import { fadeInUp, staggerContainer, cardHoverSmall } from '@/utils/animations';
 
@@ -34,6 +34,9 @@ export default function Projects(){
                             <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.4 }} className="flex gap-4 mt-2">
                                 <Link href={project.githubLink} target="_blank" className="flex items-center gap-2 text-secondary hover:text-primary transition-colors">
                                     <FaGithub className="w-5 h-5"/><span>Code</span>
+                                </Link>
+                                <Link href={project.demoLink} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-secondary hover:text-primary transition-colors">
+                                    <FaExternalLinkAlt className="h-5 w-5" /><span>Live Demo</span>
                                 </Link>
                             </motion.div>
                         </motion.article>
