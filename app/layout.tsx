@@ -15,6 +15,11 @@ const poppins = localFont({
 export const metadata: Metadata = {
   title: "My Devefolio website",
   description: "A portfolio showcasing my projects and skills",
+  icons: {
+    icon: "https://img.icons8.com/?size=100&id=113989&format=png&color=000000",       
+    shortcut: "https://img.icons8.com/?size=100&id=113989&format=png&color=000000",   
+    apple: "https://img.icons8.com/?size=100&id=113989&format=png&color=000000",     
+  },
 };
 
 export default function RootLayout({
