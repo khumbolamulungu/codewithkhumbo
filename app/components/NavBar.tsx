@@ -27,7 +27,7 @@ export default function NavBar(){
             <div className="container max-w-7xl mx-auto px-4">
                 {/* desktop */}
                 <div className="flex items-center justify-between h-16">
-                    <Link href="/" className="text-xl text-primary font-bold">CodeWithKhumbo&trade;</Link>
+                    <Link href="/" className="text-xl text-primary font-bold">{"{"}CodeWithKhumbo{"}"}</Link>
 
                     {/* desktop menu items */}
                     <div className="hidden md:flex items-center space-x-8">
